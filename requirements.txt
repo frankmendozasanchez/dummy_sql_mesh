@@ -1,1 +1,2 @@
-sqlmesh[databricks]
+sqlmesh[dev]>=0.58.3
+PyGithub>=1.58.2
