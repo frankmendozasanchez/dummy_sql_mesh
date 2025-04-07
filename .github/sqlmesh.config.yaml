@@ -1,0 +1,10 @@
+default_gateway: databricks
+
+gateways:
+  databricks:
+    type: databricks
+    catalog: ps_datalake
+    schema: raw
+    token: $SQLMESH_DATABRICKS_TOKEN
+    http_path: /sql/1.0/warehouses/308c3f5b4d6e5b8e
+    server_hostname: dbc-76921338-385d.cloud.databrick
