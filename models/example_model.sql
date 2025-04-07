@@ -6,4 +6,4 @@ MODEL (
 
 SELECT
   1 AS id,
-  'hello world' AS message;
+  'hello SQLMesh' AS message;
